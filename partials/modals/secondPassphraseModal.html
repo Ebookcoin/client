@@ -1,0 +1,82 @@
+<div class="app-modal valign-wrapper">
+    <div class="container height100">
+        <div class="row height100">
+            <div class="col-md-6 col-md-offset-4 height100 valign-wrapper">
+                <div class="modal-content" ng-show="!passmode">
+                    <div class="modal-header modal-iconed">
+                        <div class="close-modal" ng-click="close()">
+                            <span class="sr-only"><translate>Close modal</translate></span>
+                        </div>
+                    </div>
+                    <div class="modal-header clearfix">
+                        <div>
+                            <h2>{{'Add second passphrase'|translate}}</h2>
+                        </div>
+                        <div><translate>Further protect your account with an optional second passphrase! Please allow some time for the changes to take effect. Service cost: <b>{{fee | ebookcoinFilter}} EBOOKCOIN</b>. Your balance: <b>{{totalBalance | ebookcoinFilter}} EBOOKCOIN</b>.</translate></div>
+                    </div>
+                    <div class="modal-body">
+                        <form ng-submit="passcheck()">
+                            <div class="field-padding">
+                                <div class="input-field">
+                                    <input ng-focus="focus=='secondPass'" id="newSecretPhrase" type="password" ng-model="newSecretPhrase" ng-trim="false" ng-class="{'invalid': errorMessage}">
+                                    <label for="newSecretPhrase"><translate>New second passphrase</translate></label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="repeatSecretPhrase" type="password" ng-model="repeatSecretPhrase" ng-trim="false" autofocus ng-class="{'invalid': errorMessage}">
+                                    <label for="repeatSecretPhrase"><translate>Repeat second passphrase</translate></label>
+                                </div>
+                                <span class="pass-error" ng-show="fromServer && rememberedPassphrase">{{fromServer}}</span>
+                            </div>
+                            <input type="submit" ng-show="false">
+                        </form>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="nav modal-buttons pull-right">
+                            <li>
+                                <a href="#" ng-click="close()"><translate>Cancel</translate></a>
+                            </li>
+                            <li>
+                                <a href="#" class="blue-link" ng-click="passcheck()"><translate>add second passphrase</translate></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-content" ng-show="passmode">
+                    <div class="modal-header modal-iconed">
+                        <div class="close-modal" ng-click="close()">
+                            <span class="sr-only"><translate>Close modal</translate></span>
+                        </div>
+                    </div>
+                    <div class="modal-header clearfix">
+                        <div>
+                            <h2>{{'Account Verification'|translate}}</h2>
+                        </div>
+                        <div><translate>Please enter your passphrase below.</translate></div>
+                    </div>
+                    <div class="modal-body">
+                        <form ng-submit="addNewPassphrase(secretPhrase)">
+                            <div class="field-padding">
+                                <div class="input-field">
+                                    <input ng-focus="focus=='pass'" id="passPhrase" type="password" ng-model="secretPhrase" ng-trim="false" autofocus ng-class="{'invalid': errorMessage}">
+                                    <label for="passPhrase"><translate>Your Passphrase</translate></label>
+                                </div>
+                                <span class="pass-error" ng-show="fromServer">{{fromServer}}.</span>
+                            </div>
+                            <input type="submit" ng-show="false">
+                        </form>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="nav modal-buttons pull-right">
+                            <li>
+                                <a href="#" ng-click="passcheck()"><translate>BACK</translate></a>
+                            </li>
+                            <li>
+                                <a href="#" class="blue-link" ng-click="addNewPassphrase(secretPhrase)"><translate>add second passphrase</translate></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
