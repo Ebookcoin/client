@@ -139,11 +139,11 @@ msgstr ""
 #: partials/modals/transactionInfo.html:32
 #: partials/modals/transactionInfo.html:4
 msgid "Block ID"
-msgstr "区域ID"
+msgstr "区块ID"
 
 #: js/controllers/blockchainController.js:8 partials/app-template.html:124
 msgid "Blockchain"
-msgstr "区域链"
+msgstr "区块链"
 
 #: partials/modals/addDappModal.html:37
 #: partials/modals/multisignatureModal.html:28 partials/modals/vote.html:18
@@ -405,7 +405,7 @@ msgstr "新创建"
 
 #: js/controllers/blockchainController.js:42 partials/modals/blockInfo.html:46
 msgid "Generator"
-msgstr "创建者"
+msgstr "区块地址"
 
 #: partials/modals/addDappModal.html:285 partials/modals/addDappModal.html:311
 msgid "Git repository link"
