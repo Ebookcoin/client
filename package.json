@@ -1,13 +1,13 @@
 {
-  "name": "frontend",
+  "name": "client",
   "version": "0.1.1",
   "description": "Ebookcoin user-interface submodule",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Ebookcoin/frontend.git"
+    "url": "git@github.com:Ebookcoin/client.git"
   },
-  "private": true,
-  "author": "Vera Nekrasova <vera.limita@gmail.com>, Boris Povod <boris@crypti.me>",
+  "privated": true,
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "browserify": "latest",
