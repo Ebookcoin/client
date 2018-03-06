@@ -491,7 +491,7 @@ msgid "PLTCHAINCOIN Amount"
 msgstr "Количество EBOOKCOIN"
 
 #: partials/forging.html:11
-msgid "EBOOKCOIN Earned"
+msgid "COIN Earned"
 msgstr "EBOOKCOIN Заработано"
 
 #: partials/settings.html:9

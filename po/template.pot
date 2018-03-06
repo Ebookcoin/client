@@ -435,7 +435,7 @@ msgid "Ebookcoin Client Outdated"
 msgstr ""
 
 #: partials/forging.html:11
-msgid "EBOOKCOIN Earned"
+msgid "COIN Earned"
 msgstr ""
 
 #: partials/modals/masterPassphraseModal.html:24
