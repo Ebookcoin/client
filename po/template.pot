@@ -153,7 +153,7 @@ msgid "Balance"
 msgstr ""
 
 #: partials/modals/registrationDelegateModal.html:29
-msgid "Becoming a delegate requires registration. You may choose your own delegate name, which can be used to promote your delegate. Only the top 101 delegates are eligible to forge. All fees are shared equally between the top 101 delegates. Registration costs: {{fee | ebookcoinFilter}} EBOOKCOIN."
+msgid "Becoming a delegate requires registration. You may choose your own delegate name, which can be used to promote your delegate. Only the top 101 delegates are eligible to forge. All fees are shared equally between the top 101 delegates. Registration costs: {{fee | pltchaincoinFilter}} COIN."
 msgstr ""
 
 #: js/controllers/blockchainController.js:41
@@ -490,7 +490,7 @@ msgid "FORGING"
 msgstr ""
 
 #: partials/modals/secondPassphraseModal.html:15
-msgid "Further protect your account with an optional second passphrase! Please allow some time for the changes to take effect. Service cost: <b>{{fee | ebookcoinFilter}} EBOOKCOIN</b>. Your balance: <b>{{totalBalance | ebookcoinFilter}} EBOOKCOIN</b>."
+msgid "Further protect your account with an optional second passphrase! Please allow some time for the changes to take effect. Service cost: <b>{{fee | pltchaincoinFilter}} COIN</b>. Your balance: <b>{{totalBalance | ebookcoinFilter}} EBOOKCOIN</b>."
 msgstr ""
 
 #: partials/settings.html:6

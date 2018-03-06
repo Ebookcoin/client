@@ -130,13 +130,13 @@ msgid ""
 "Becoming a delegate requires registration. You may choose your own delegate "
 "name, which can be used to promote your delegate. Only the top 101 delegates "
 "are eligible to forge. All fees are shared equally between the top 101 "
-"delegates. Registration costs: {{fee | ebookcoinFilter}} EBOOKCOIN."
+"delegates. Registration costs: {{fee | pltchaincoinFilter}} COIN."
 msgstr ""
 "Om een afgevaardigde te worden is registratie vereist. U mag uw eigen "
 "afgevaardigde naam kiezen die kan worden gebruikt om uw afgevaardigde te "
 "promoten. Enkel de top 101 afgevaardigden komen in aanmerking om te forgen. "
 "Alle verheffingen (fees) worden verdeeld tussen de top 101 afgevaardigden. "
-"Registratie kosten: {{fee | ebookcoinFilter}} EBOOKCOIN."
+"Registratie kosten: {{fee | pltchaincoinFilter}} COIN."
 
 #: js/controllers/blockchainController.js:41
 #: js/controllers/forgingController.js:121 partials/modals/blockInfo.html:7
@@ -389,7 +389,7 @@ msgid ""
 msgstr ""
 "U kan uw account beter beveiligen met een optionele tweede wachtwoordzin! "
 "Geef het systeem een beetje tijd om de veranderingen toe te passen. Kosten "
-"van deze dienst: <b>{{fee | ebookcoinFilter}} EBOOKCOIN</b>. Uw balans: "
+"van deze dienst: <b>{{fee | pltchaincoinFilter}} COIN</b>. Uw balans: "
 "<b>{{totalBalance | ebookcoinFilter}} EBOOKCOIN</b>."
 
 #: partials/modals/newUser.html:67
