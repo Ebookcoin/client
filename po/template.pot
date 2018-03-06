@@ -423,7 +423,7 @@ msgid "Ebookcoin Address"
 msgstr ""
 
 #: partials/modals/sendTransaction.html:27
-msgid "EBOOKCOIN Amount"
+msgid "PLTCHAINCOIN Amount"
 msgstr ""
 
 #: partials/account.html:46

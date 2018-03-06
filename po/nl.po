@@ -485,7 +485,7 @@ msgid "LAUNCH"
 msgstr "STARTEN"
 
 #: partials/modals/sendTransaction.html:27
-msgid "EBOOKCOIN Amount"
+msgid "PLTCHAINCOIN Amount"
 msgstr "Aantal EBOOKCOIN"
 
 #: partials/forging.html:11

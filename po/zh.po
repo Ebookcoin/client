@@ -478,7 +478,7 @@ msgid "LAUNCH"
 msgstr "运行"
 
 #: partials/modals/sendTransaction.html:27
-msgid "EBOOKCOIN Amount"
+msgid "PLTCHAINCOIN Amount"
 msgstr "EBOOKCOIN金额"
 
 #: partials/forging.html:11

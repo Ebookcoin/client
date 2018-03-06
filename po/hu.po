@@ -484,7 +484,7 @@ msgid "LAUNCH"
 msgstr "INDÍTÁS"
 
 #: partials/modals/sendTransaction.html:27
-msgid "EBOOKCOIN Amount"
+msgid "PLTCHAINCOIN Amount"
 msgstr "EBOOKCOIN Összeg"
 
 #: partials/forging.html:11
