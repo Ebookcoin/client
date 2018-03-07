@@ -380,12 +380,12 @@ msgstr "锻造"
 msgid ""
 "Further protect your account with an optional second passphrase! Please "
 "allow some time for the changes to take effect. Service cost: <b>{{fee | "
-"ebookcoinFilter}} EBOOKCOIN</b>. Your balance: <b>{{totalBalance | pltchaincoinFilter}} COIN</"
+"ebookcoinFilter}} COIN</b>. Your balance: <b>{{totalBalance | pltchaincoinFilter}} COIN</"
 "b>."
 msgstr ""
 "使用支付密码(可选)来保障帐户安全! 请稍待片刻以使信息成功保存到区块链. 本次费"
 "用: <b>{{fee | pltchaincoinFilter}} COIN</b>. 您的余额: <b>{{totalBalance | "
-"ebookcoinFilter}} EBOOKCOIN</b>."
+"ebookcoinFilter}} COIN</b>."
 
 #: partials/modals/newUser.html:67
 msgid "GET STARTED"
@@ -502,7 +502,7 @@ msgid "Latest version"
 msgstr "最新版本"
 
 #: wallet.html:19
-msgid "Ebookcoin - Decentralized Application Platform"
+msgid "PLTChain - Decentralized Application Platform"
 msgstr "Ebookcoin - 去中心化应用平台"
 
 #: js/controllers/contactsController.js:54
@@ -510,15 +510,15 @@ msgstr "Ebookcoin - 去中心化应用平台"
 #: js/controllers/pendingsController.js:31
 #: js/controllers/votedDelegatesController.js:125
 #: js/controllers/walletPendingsController.js:43
-msgid "Ebookcoin Address"
+msgid "PLTChainCoin Address"
 msgstr "Ebookcoin地址"
 
 #: partials/account.html:46
-msgid "Ebookcoin Client"
+msgid "PLTChainCoin Client"
 msgstr "Ebookcoin 客户端"
 
 #: partials/account.html:56
-msgid "Ebookcoin Client Outdated"
+msgid "PLTChainCoin Client Outdated"
 msgstr "Ebookcoin 客户端已过期"
 
 #: js/controllers/walletsController.js:7
@@ -578,7 +578,7 @@ msgstr "更多信息"
 msgid ""
 "Make sure that you keep the passphrase safe. You will be asked to re-type it "
 "for confirmation."
-msgstr "请确定您已经安全保存了主密码，呆会将会要求您重复输入以确认密码."
+msgstr "请确定您已经安全保存了主密码，稍后将会要求您重复输入以确认密码."
 
 #: partials/modals/sendTransaction.html:35
 msgid ""
@@ -730,7 +730,7 @@ msgstr "请检查您以下的输入内容，或者返回上一步"
 #: partials/modals/multisignatureModal.html:106
 msgid ""
 "Please check your input below and go back if necessary. Double-check the "
-"group members, else you risk losing your EBOOKCOIN balance!"
+"group members, else you risk losing your COIN balance!"
 msgstr ""
 "请核实以下内容，如果有必要请返回上一步。请多次核实组成员信息，否则您有可能损"
 "失您所有EBOOKCOIN."
@@ -887,7 +887,7 @@ msgid "SEND"
 msgstr "发送"
 
 #: partials/modals/addDappModal.html:470
-msgid "SEND EBOOKCOIN"
+msgid "SEND COIN"
 msgstr "发送Ebookcoin"
 
 #: partials/passphrase.html:27
@@ -919,7 +919,7 @@ msgstr "搜索交易(交易ID，发送者地址，接收者地址)"
 #: partials/delegates.html:120 partials/delegates.html:51
 #: partials/modals/sendTransaction.html:13 partials/modals/userInfo.html:30
 #: partials/votes.html:49
-msgid "Send EBOOKCOIN"
+msgid "SEND COIN"
 msgstr "发送Ebookcoin"
 
 #: js/controllers/transactionsController.js:64 partials/account.html:83
@@ -1044,14 +1044,14 @@ msgstr "此操作将花费"
 msgid ""
 "This walkthrough will guide you through the necessary steps to create a "
 "multi-signature group. It's very important that you know what multi-"
-"signatures are, else you risk loosing your EBOOKCOIN balance.<br><br>A multi-"
+"signatures are, else you risk loosing your PLTCAINCOIN balance.<br><br>A multi-"
 "signature group consists of N accounts, the one who created the group is the "
 "group owner. When the owner wants to make a transaction, M of N accounts "
 "within the group need to confirm it, otherwise the transaction will not be "
 "processed. The values M and N are specified in this walkthrough."
 "<br><br><b>Things you need to know for the multi-signature group setup:</"
 "b><br><br>• The number of group members (N).<br>• The number of needed "
-"confirmations (M).<br>• The account names or IDs from the Ebookcoin accounts you "
+"confirmations (M).<br>• The account names or IDs from the PLTChain accounts you "
 "want to add to the group."
 msgstr ""
 "本介绍将引导您通过必要的步骤来创建一个多重签名组. 请务必先了解何为多重签名，"
@@ -1173,17 +1173,17 @@ msgstr "确认"
 msgid ""
 "You are about to register your decentralized application (dapp) on the Ebookcoin "
 "network. After the registration all Ebookcoin users will be able to see your dapp "
-"on the Ebookcoin Dapp Store and they will also be able to install and launch it."
+"on the PLTCHAIN Dapp Store and they will also be able to install and launch it."
 "<br><br>One of the characteristics of blockchains is that you can't delete "
 "any content from them. Therefore make sure you have used the correct dapp "
 "parameters. We also advise you to test your dapp on the official Ebookcoin "
 "testnet so you can guarantee that its working flawlessly.<br><br><b>Things "
 "you need to know for the registration process:</b><br><br>• Dapp names are "
-"unique, you can't register the same name twice on the Ebookcoin network.<br>• You "
+"unique, you can't register the same name twice on the PLTCHAIN network.<br>• You "
 "can either use a centralized (GitHub) or decentralized (Sia) hosting method."
 "<br>• Make sure that your dapp icon's format is a square.<br>• Choose your "
 "tags wisely, with them your users will be able to find your dapp in the Dapp "
-"Store.<br><br>The Ebookcoin Team isn't liable for a dapp, solely the uploader is. "
+"Store.<br><br>The PLTCHAIN Team isn't liable for a dapp, solely the uploader is. "
 "So you have to make sure that your dapp is legal and doesn't harm its users."
 msgstr ""
 "您正在注册您的Dapp到Ebookcoin网络上，在注册流程结束后，所有用户将可以在Ebookcoin的Dapp"
@@ -1333,7 +1333,7 @@ msgstr "保存名称"
 #: partials/modals/sendTransaction.html:113
 #: partials/modals/sendTransaction.html:43
 #: partials/modals/sendTransaction.html:78
-msgid "send ebookcoin"
+msgid "SEND COIN"
 msgstr "发送Ebookcoin"
 
 #: partials/delegates.html:13

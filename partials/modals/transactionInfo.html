@@ -14,10 +14,10 @@
                     <span class="pull-right small-text">{{block.confirmations}}</span>
                 </li>
                 <li class="list-group-item"><translate>Amount</translate>
-                    <span class="pull-right small-text">{{block.amount | ebookcoinFilter}} EBOOKCOIN</span>
+                    <span class="pull-right small-text">{{block.amount | ebookcoinFilter}} COIN</span>
                 </li>
                 <li class="list-group-item bordered"><translate>Fee</translate>
-                    <span class="pull-right small-text">{{block.fee | ebookcoinFilter}} EBOOKCOIN</span>
+                    <span class="pull-right small-text">{{block.fee | ebookcoinFilter}} COIN</span>
                 </li>
                 <li class="list-group-item"><translate>USD Equivalent</translate>
                     <span class="pull-right small-text">${{convertToUSD(block.amount)| number: 2}}</span>
@@ -35,17 +35,17 @@
                     <div class="transaction-path">
                         <div class="transaction-part pull-left">
                             <a href="#" class="blue-link" ng-click="userInfo(block.recipientId)">{{block.senderId}}</a>
-                            <span class="ebookcoin">{{block.amount | ebookcoinFilter}} EBOOKCOIN</span>
+                            <span class="ebookcoin">{{block.amount | ebookcoinFilter}} COIN</span>
                         </div>
                         <div class="transaction-direction"></div>
                         <div class="transaction-part pull-right">
                             <a href="#" class="blue-link" ng-click="userInfo(block.recipientId)">{{block.recipientId || ""}}</a>
-                            <span class="ebookcoin">{{block.amount | ebookcoinFilter}} EBOOKCOIN</span>
+                            <span class="ebookcoin">{{block.amount | ebookcoinFilter}} COIN</span>
                         </div>
                     </div>
                     <div class="transaction-bottom">
-                        <div class="fee"><translate>FEE</translate>: {{block.fee | ebookcoinFilter}} EBOOKCOIN</div>
-                        <div class="ebookcoin">{{block.amount | ebookcoinFilter}} EBOOKCOIN
+                        <div class="fee"><translate>FEE</translate>: {{block.fee | ebookcoinFilter}} COIN</div>
+                        <div class="ebookcoin">{{block.amount | ebookcoinFilter}} COIN
                         </div>
                         <div class="confirmations">{{block.confirmations || 0}} <translate>CONFIRMATIONS</translate></div>
                     </div>

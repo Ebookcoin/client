@@ -51,7 +51,7 @@ angular.module('ebookcoinApp').controller('contactsController', ['$scope', '$roo
 
     $scope.tableContacts.cols = {
         username : gettextCatalog.getString('Username'),
-        address : gettextCatalog.getString('Ebookcoin Address')
+        address : gettextCatalog.getString('PLTChainCoin Address')
     };
 
     $scope.tableContacts.settings().$scope = $scope;

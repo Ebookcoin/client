@@ -40,7 +40,7 @@ angular.module('ebookcoinApp').controller('walletPendingsController', ['$scope',
     });
 
     $scope.tableTransactions.cols = {
-        wallet : gettextCatalog.getString('Ebookcoin Address'),
+        wallet : gettextCatalog.getString('PLTChainCoin Address'),
         transactionId : gettextCatalog.getString('Transaction ID'),
         t_recipientId : gettextCatalog.getString('Recipient'),
         t_timestamp : gettextCatalog.getString('Time'),

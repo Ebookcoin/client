@@ -27,7 +27,7 @@
                     <div class="modal-nav" ng-if="account.address != address">
                         <ul class="nav nav-justified nav-actions">
                             <li>
-                                <a href="#" class="blue-link" ng-click="sendTransactionToUser()"><i class="mdi-content-send"></i><translate>Send EBOOKCOIN</translate></a>
+                                <a href="#" class="blue-link" ng-click="sendTransactionToUser()"><i class="mdi-content-send"></i><translate>SEND COIN</translate></a>
                             </li>
                             <!-- <li><a href="#"><i class="mdi-communication-message"></i> Send Message</a></li>-->
                             <!-- <li><a href="#"><i class="mdi-action-stars"></i> Add Favorite</a></li> -->
@@ -41,7 +41,7 @@
                             <ul class="list-group">
                                 <li class="list-group-item summary"><translate>Summary</translate></li>
                                 <li class="list-group-item bordered"><translate>Total Balance</translate>
-                                    <span class="pull-right small-text">{{account.unconfirmedBalance  | ebookcoinFilter }} EBOOKCOIN</span>
+                                    <span class="pull-right small-text">{{account.unconfirmedBalance  | ebookcoinFilter }} COIN</span>
                                 </li>
                                 <li class="list-group-item"><translate>USD Equivalent</translate>
                                     <span class="pull-right small-text">${{convertToUSD(account.unconfirmedBalance)| number: 2}}</span>
@@ -65,10 +65,10 @@
                                         <span class="pull-right small-text">{{transaction.confirmations}}</span>
                                     </li>
                                     <li class="list-group-item"><translate>Amount</translate>
-                                        <span class="pull-right small-text">{{transaction.amount / 100000000}} EBOOKCOIN</span>
+                                        <span class="pull-right small-text">{{transaction.amount / 100000000}} COIN</span>
                                     </li>
                                     <li class="list-group-item bordered"><translate>Fee</translate>
-                                        <span class="pull-right small-text">{{transaction.fee / 100000000}} EBOOKCOIN</span>
+                                        <span class="pull-right small-text">{{transaction.fee / 100000000}} COIN</span>
                                     </li>
                                     <li class="list-group-item"><translate>USD Equivalent</translate>
                                         <span class="pull-right small-text">${{convertToUSD(transaction.amount)| number: 2}}</span>
@@ -86,18 +86,18 @@
                                         <div class="transaction-path">
                                             <div class="transaction-part pull-left">
                                                 <a href="#" class="blue-link" ng-click="getAccountDetail(transaction.senderId)">{{transaction.senderId}}</a>
-                                                <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} EBOOKCOIN</span>
+                                                <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} COIN</span>
                                             </div>
                                             <div class="transaction-direction"></div>
                                             <div class="transaction-part pull-right">
                                                 <a href="#" class="blue-link" ng-click="getAccountDetail(transaction.recipientId)">{{transaction.recipientId
                                                 || ""}}</a>
-                                                <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} EBOOKCOIN</span>
+                                                <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} COIN</span>
                                             </div>
                                         </div>
                                         <div class="transaction-bottom">
-                                            <div class="fee"><translate>FEE</translate>: {{transaction.fee | ebookcoinFilter}} EBOOKCOIN</div>
-                                            <div class="ebookcoin">{{transaction.amount | ebookcoinFilter}} EBOOKCOIN</div>
+                                            <div class="fee"><translate>FEE</translate>: {{transaction.fee | ebookcoinFilter}} COIN</div>
+                                            <div class="ebookcoin">{{transaction.amount | ebookcoinFilter}} COIN</div>
                                             <div class="confirmations">{{transaction.confirmations || 0 }} <translate>CONFIRMATIONS</translate></div>
                                         </div>
                                     </li>

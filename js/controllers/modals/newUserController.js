@@ -27,7 +27,7 @@ angular.module('ebookcoinApp').controller('newUserController', ["$scope", "$http
 
     $scope.savePassToFile = function (pass) {
         var blob = new Blob([pass], {type: "text/plain;charset=utf-8"});
-        FS.saveAs(blob, "ebookcoinPassphrase.txt");
+        FS.saveAs(blob, "PLTCHAINPassphrase.txt");
     }
 
     $scope.login = function (pass) {

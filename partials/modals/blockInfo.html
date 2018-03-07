@@ -60,17 +60,17 @@
                                     <div class="transaction-path">
                                         <div class="transaction-part pull-left">
                                             <a href="#" ng-click="userInfo(transaction.senderId)">{{transaction.senderId}}</a>
-                                            <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} EBOOKCOIN</span>
+                                            <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} COIN</span>
                                         </div>
                                         <div class="transaction-direction"></div>
                                         <div class="transaction-part pull-right">
                                             <a href="#" ng-click="userInfo(transaction.recipientId)">{{transaction.recipientId || "-"}}</a>
-                                            <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} EBOOKCOIN</span>
+                                            <span class="ebookcoin">{{transaction.amount | ebookcoinFilter}} COIN</span>
                                         </div>
                                     </div>
                                     <div class="transaction-bottom">
-                                        <div class="fee"><translate>FEE</translate>: {{transaction.fee | ebookcoinFilter}} EBOOKCOIN</div>
-                                        <div class="ebookcoin">{{transaction.amount | ebookcoinFilter}} EBOOKCOIN </div>
+                                        <div class="fee"><translate>FEE</translate>: {{transaction.fee | ebookcoinFilter}} COIN</div>
+                                        <div class="ebookcoin">{{transaction.amount | ebookcoinFilter}} COIN </div>
                                         <div class="confirmations">{{transaction.confirmations || 0}} <translate>CONFIRMATIONS</translate></div>
                                     </div>
                                 </li>

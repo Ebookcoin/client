@@ -122,7 +122,7 @@ angular.module('ebookcoinApp').controller('votedDelegatesController', ['$scope',
     $scope.tableMyDelegates.cols = {
         rate : gettextCatalog.getString('Rank'),
         username : gettextCatalog.getString('Name'),
-        address : gettextCatalog.getString('Ebookcoin Address'),
+        address : gettextCatalog.getString('PLTChainCoin Address'),
         productivity : gettextCatalog.getString('Uptime'),
         vote : gettextCatalog.getString('Approval')
     };
