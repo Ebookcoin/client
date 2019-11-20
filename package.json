@@ -20,7 +20,7 @@
     "grunt-contrib-watch": "latest"
   },
   "dependencies": {
-    "angular": "~1.6.0",
+    "angular": "~1.7.9",
     "angular-animate": "^1.2.0",
     "angular-chartjs": "0.0.5",
     "angular-modal": "~0.4.0",
