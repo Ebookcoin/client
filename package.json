@@ -31,7 +31,7 @@
     "bitcore-mnemonic": "^0.10.1",
     "bower": "^1.8.8",
     "browserify-angular-animate": "^1.2.18",
-    "chart.js": "^1.0.2",
+    "chart.js": "^2.9.4",
     "compare-version": "^0.1.2",
     "grunt-angular-gettext": "2.1.11",
     "grunt-cli": "^0.1.13",
