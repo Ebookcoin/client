@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "latest",
-    "grunt": "~0.4.5",
+    "grunt": "~1.5.3",
     "grunt-browserify": "latest",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-less": "~0.11.1",
